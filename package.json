@@ -6,13 +6,11 @@
   "engines": {
     "node": "10.3.0"
   },
-{
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
-  }
-},
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
