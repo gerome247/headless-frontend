@@ -1,1 +1,1 @@
-export const Config = {apiUrl: 'http://www.geromeheath.co.uk'}
+export const Config = {apiUrl: '//www.geromeheath.co.uk'}
