@@ -1,0 +1,16 @@
+@import 'theme-colors';
+$theme-font: 100% verdana, sans-serif;
+
+body {
+  font: $theme-font;
+  background-color: $themeColor-Light;
+  h1, h2 {
+      color: $themeColor-Dark
+  }
+}
+
+.slider-list {
+  display: block !important;
+  height: auto !important;
+  min-height: 768px !important;
+}
