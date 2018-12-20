@@ -7,10 +7,10 @@
     "node": "10.3.0"
   },
   "scripts": {
-    "start": "next start -p $PORT",
-     "build": "next build",
-    "heroku-postbuild": "next build"
-  },  
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
