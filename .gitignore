@@ -1,8 +1,6 @@
-.next
 node_modules
 .idea
 node_modules/
-.next/
 *.log
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
