@@ -1,13 +1,5 @@
 Need to try
 
-"scripts": {
-  "dev": "next",
-  "build": "next build",
-  "start": "next start -p $PORT",
-  "heroku-postbuild": "npm run build",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
-
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
@@ -26,14 +18,6 @@ Not working
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start server.js",
     "heroku-postbuild": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
