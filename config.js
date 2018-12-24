@@ -1,1 +1,1 @@
-export const Config = {apiUrl: 'https://hampsteadheath.eu/wp-json'}
+export const Config = {apiUrl: 'https://hampsteadheath.eu'}
