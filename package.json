@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
+  "bengines": {
     "node": "10.3.0"
   },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "start-dev": "node server.js",
+    "start-prod": "next start -p $PORT",
+    "start": "node server.js",
     "heroku-postbuild": "npm run build",
     "docker:build": "docker build -t frontend .",
     "docker:clean": "docker rm -f frontend || true",
@@ -32,6 +32,7 @@
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
+    "express": "^4.16.2",
     "autoprefixer": "7.1.5",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-wrap-in-js": "^1.1.0",

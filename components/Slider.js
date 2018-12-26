@@ -21,14 +21,17 @@ export default class Slider extends Component {
 
   render() {
       const {slides} = this.state;
+
+
     return (
       <div>
         <Carousel>
             {slides.map(slide =>
             <Link
+                key={slide.id}
                 href={slide.acf.link}
             >
-            <a>
+            <a key={slide.id}>
             <img
                 style={{ width: '100%'}}
                 key={slide.id}

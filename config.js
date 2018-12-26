@@ -1,1 +1,1 @@
-export const Config = {apiUrl: 'https://hampsteadheath.eu'}
+export const Config = {apiUrl: 'http://localhost:8080'}
